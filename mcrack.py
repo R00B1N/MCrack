@@ -60,6 +60,7 @@ class FTP:
                     self.ftp.login(self.user, password)
                     print(Fore.GREEN)
                     print("[*]Crackeado!! la contraseña es --> " + password)
+                    input("\nPresiona enter para continuar..")
                     break;
                 except:
                     print(Fore.YELLOW)
